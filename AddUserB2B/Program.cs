@@ -20,16 +20,16 @@ namespace AddUserB2B
 
         static readonly string EstsLoginEndpoint = "https://login.microsoftonline.com";
 
-        //Add tenant ID here ,you will get in help of axure at show diagonistics '?' sign button
-        private static readonly string TenantID = "5d06e336-4f3c-4fbb-9bee-badcfc332596";
+        //Add tenant ID here ,you will get in help of azure at show diagonistics '?' sign button
+        private static readonly string TenantID = "Your tenant id";
 
         
 
         //App ID registered in above tenant
-        private static readonly string TestAppClientId = "9ca3ba1c-0907-4025-b174-ff0ccbf6ec64";
+        private static readonly string TestAppClientId = "your app id";
 
         //App Client secret
-        private static readonly string TestAppClientSecret = @"m9b4mLPMOSH9/NhPO6doRGhjXCpueXPBuAFu9G3GNKo=";
+        private static readonly string TestAppClientSecret = @"your client secret";
 
         ////User Email Address
         //private static readonly string InvitedUserEmailAddress = @"";
@@ -44,36 +44,11 @@ namespace AddUserB2B
             Console.ReadLine();
         }
 
-        private static void startMethod()
-        {
-            Console.WriteLine("This Application let you invite users to your Active Directory Application");
-            Console.WriteLine("Press 'Y' to continue");
-            var userResponse = Console.ReadLine();
-            if(userResponse.ToLower().Trim() == "y")
-            {
-                Console.WriteLine("Enter your Tenant ID");
-                var UserTenantId = Console.ReadLine();
-
-                Console.WriteLine($"Enter your App Id registered in tenant :{UserTenantId}");
-                var UserAppClientId = Console.ReadLine();
-
-                Console.WriteLine($"Enter the Client Secret");
-                var UserClientSecret = Console.ReadLine();
-            }
-            else
-            {
-                Console.WriteLine("Thank you for using the application");
-            }         
-        }
-
-        
-
-
         private static void sendToAll()
         {
            
             //csv file name : TestADUsers
-            using (var reader = new StreamReader(@"C:\ADUserList.csv"))
+            using (var reader = new StreamReader(@"C:\ADUserList.csv"))//Local file name
             {
                 //List<string> listA = new List<string>();
                 //List<string> listB = new List<string>();
@@ -129,7 +104,7 @@ namespace AddUserB2B
 
             invitation.InvitedUserDisplayName = InvitedUserDisplayName;
             invitation.InvitedUserEmailAddress = InvitedUserEmailAddress;
-            invitation.InviteRedirectUrl = "https://www.tme4automation.com";
+            invitation.InviteRedirectUrl = "https://github.com/satyansh-sagar";//Redirect url
             invitation.SendInvitationMessage = true;
             return invitation;
         }
