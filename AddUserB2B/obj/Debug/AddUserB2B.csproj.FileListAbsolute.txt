@@ -1,0 +1,16 @@
+c:\users\v-sasaga\documents\visual studio 2017\Projects\AddUserB2B\AddUserB2B\bin\Debug\AddUserB2B.exe.config
+c:\users\v-sasaga\documents\visual studio 2017\Projects\AddUserB2B\AddUserB2B\bin\Debug\AddUserB2B.exe
+c:\users\v-sasaga\documents\visual studio 2017\Projects\AddUserB2B\AddUserB2B\bin\Debug\AddUserB2B.pdb
+c:\users\v-sasaga\documents\visual studio 2017\Projects\AddUserB2B\AddUserB2B\bin\Debug\Microsoft.Graph.Core.dll
+c:\users\v-sasaga\documents\visual studio 2017\Projects\AddUserB2B\AddUserB2B\bin\Debug\Microsoft.Graph.dll
+c:\users\v-sasaga\documents\visual studio 2017\Projects\AddUserB2B\AddUserB2B\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+c:\users\v-sasaga\documents\visual studio 2017\Projects\AddUserB2B\AddUserB2B\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+c:\users\v-sasaga\documents\visual studio 2017\Projects\AddUserB2B\AddUserB2B\bin\Debug\Newtonsoft.Json.dll
+c:\users\v-sasaga\documents\visual studio 2017\Projects\AddUserB2B\AddUserB2B\bin\Debug\Microsoft.Graph.xml
+c:\users\v-sasaga\documents\visual studio 2017\Projects\AddUserB2B\AddUserB2B\bin\Debug\Microsoft.Graph.Core.xml
+c:\users\v-sasaga\documents\visual studio 2017\Projects\AddUserB2B\AddUserB2B\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+c:\users\v-sasaga\documents\visual studio 2017\Projects\AddUserB2B\AddUserB2B\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+c:\users\v-sasaga\documents\visual studio 2017\Projects\AddUserB2B\AddUserB2B\bin\Debug\Newtonsoft.Json.xml
+c:\users\v-sasaga\documents\visual studio 2017\Projects\AddUserB2B\AddUserB2B\obj\Debug\AddUserB2B.exe
+c:\users\v-sasaga\documents\visual studio 2017\Projects\AddUserB2B\AddUserB2B\obj\Debug\AddUserB2B.pdb
+C:\Users\v-sasaga\Documents\Visual Studio 2017\Projects\AddUserB2B\AddUserB2B\obj\Debug\AddUserB2B.csprojResolveAssemblyReference.cache
